@@ -1,8 +1,8 @@
-from ui.widgets import show_banner
+from ui.widgets import banner
 
 
 def render() -> None:
-    show_banner(
+    banner(
         "Mini Project",
         "Praktik langsung dengan membangun aplikasi Streamlit yang mengintegrasikan model machine",
     )
