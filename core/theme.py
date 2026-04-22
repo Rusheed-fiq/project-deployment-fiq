@@ -29,6 +29,7 @@ def apply_kemenkeu_theme() -> None:
             border-radius: 12px;
             color: white;
             border-top: 6px solid {KEMENKEU_GOLD};
+            margin-top: 1rem;
             margin-bottom: 1rem;
         }}
         h1, h2, h3 {{

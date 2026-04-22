@@ -20,3 +20,6 @@ wheels/
 # OS/editor
 .DS_Store
 .vscode/
+
+# Local only
+local/
