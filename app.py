@@ -3,21 +3,16 @@ import streamlit as st
 from core.theme import apply_kemenkeu_theme, setup_page
 from page import beranda, dasar_widget, deployment, endpoint_llm, mini_project, state_form_cache
 
-# Step 0: konfigurasi global app
 setup_page()
 apply_kemenkeu_theme()
 
-# Step 1: navigasi disusun dari paling dasar sampai deployment
-pg = st.navigation(
-    [
-        st.Page(beranda.render, title="Beranda", icon=":material/home:", url_path="beranda"),
-        st.Page(dasar_widget.render, title="Dasar & Widget", icon=":material/widgets:", url_path="dasar-widget"),
-        st.Page(state_form_cache.render, title="State/Form/Cache", icon=":material/tune:", url_path="state-form-cache"),
-        st.Page(mini_project.render, title="Mini Project", icon=":material/dashboard:", url_path="mini-project"),
-        st.Page(endpoint_llm.render, title="Endpoint LLM", icon=":material/smart_toy:", url_path="endpoint-llm"),
-        st.Page(deployment.render, title="Deployment", icon=":material/rocket_launch:", url_path="deployment"),
-    ],
-    position="top",
-)
+pages = [
+    st.Page(beranda.render, title="Beranda", icon=":material/home:", url_path="beranda"),
+    st.Page(dasar_widget.render, title="Dasar & Widget", icon=":material/widgets:", url_path="dasar-widget"),
+    st.Page(state_form_cache.render, title="State/Form/Cache", icon=":material/tune:", url_path="state-form-cache"),
+    st.Page(mini_project.render, title="Mini Project", icon=":material/dashboard:", url_path="mini-project"),
+    st.Page(endpoint_llm.render, title="Endpoint LLM", icon=":material/smart_toy:", url_path="endpoint-llm"),
+    st.Page(deployment.render, title="Deployment", icon=":material/rocket_launch:", url_path="deployment"),
+]
 
-pg.run()
+st.navigation(pages, position="top").run()

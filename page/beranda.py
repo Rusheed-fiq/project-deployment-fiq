@@ -6,29 +6,16 @@ from ui.widgets import show_banner
 def render() -> None:
     show_banner(
         "Pelatihan Project Deployment dengan Streamlit",
-        "Alur belajar: Dasar → Widget → State/Form/Cache → Integrasi Endpoint → Deployment",
+        "Versi main branch sengaja dibuat sederhana untuk live coding.",
     )
 
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Durasi Setup", "< 10 menit")
-    with col2:
-        st.metric("Baris kode app awal", "± 20")
-    with col3:
-        st.metric("Target", "App online + AI")
-
-    st.markdown("### Kenapa Streamlit efektif untuk unit Analis Data?")
+    st.markdown("### Tujuan sesi")
     st.markdown(
         """
-        - Cepat membuat dashboard internal berbasis data.
-        - Mudah untuk prototyping use-case analitik dan AI.
-        - Bisa dihubungkan ke model endpoint lokal maupun cloud.
-        - Deployment bisa bertahap: local, cloud sederhana, sampai container.
+        - Kenali struktur project
+        - Jalankan aplikasi Streamlit
+        - Isi placeholder sedikit demi sedikit saat demo
         """
     )
 
-    st.markdown("### Peta Modul Pelatihan")
-    st.info(
-        "1) Streamlit Dasar  •  2) Widget Penting  •  3) State/Form/Cache  •  "
-        "4) Dashboard Dummy  •  5) Endpoint LLM  •  6) Deployment"
-    )
+    st.info("TODO kelas: tambahkan metric, highlight, atau alur materi di halaman ini.")

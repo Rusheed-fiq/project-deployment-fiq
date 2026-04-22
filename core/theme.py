@@ -21,7 +21,7 @@ def apply_kemenkeu_theme() -> None:
             background: {KEMENKEU_BG};
         }}
         .block-container {{
-            padding-top: 2.6rem;
+            padding-top: 2rem;
         }}
         .kemenkeu-banner {{
             background: linear-gradient(90deg, {KEMENKEU_BLUE} 0%, #1F4AA8 100%);
@@ -29,15 +29,7 @@ def apply_kemenkeu_theme() -> None:
             border-radius: 12px;
             color: white;
             border-top: 6px solid {KEMENKEU_GOLD};
-            margin-top: 0.4rem;
-            margin-bottom: 0.8rem;
-        }}
-        .kemenkeu-card {{
-            background: white;
-            border: 1px solid #E4E9F5;
-            border-radius: 12px;
-            padding: 0.8rem 1rem;
-            margin-bottom: 0.7rem;
+            margin-bottom: 1rem;
         }}
         h1, h2, h3 {{
             color: {KEMENKEU_BLUE};
