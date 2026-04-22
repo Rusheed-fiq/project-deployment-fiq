@@ -21,7 +21,7 @@ def render() -> None:
         card_with_anchor(
             title="Streamlit Komponen",
             content="Reusable components seperti st.button, st.text_input, st.selectbox, dan banyak lagi untuk membangun UI aplikasi dengan mudah.",
-            anchor="https://streamlit.io/components",
+            anchor="https://docs.streamlit.io/develop/api-reference",
             label="Lihat Komponen",
         )
 
