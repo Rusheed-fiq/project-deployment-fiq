@@ -1,0 +1,13 @@
+,tanggal,wilayah,produk,revenue,biaya
+0,2026-01-01,Jakarta,Data Class,120,80
+1,2026-02-01,Bandung,Data Class,150,90
+2,2026-03-01,Surabaya,AI Class,180,120
+3,2026-04-01,Jakarta,AI Class,170,110
+4,2026-05-01,Bandung,Data Class,160,105
+5,2026-06-01,Surabaya,AI Class,210,130
+6,2026-07-01,Jakarta,Data Class,200,140
+7,2026-08-01,Bandung,AI Class,190,125
+8,2026-09-01,Surabaya,Data Class,220,145
+9,2026-10-01,Jakarta,AI Class,240,150
+10,2026-11-01,Bandung,Data Class,230,148
+11,2026-12-01,Surabaya,AI Class,260,160
